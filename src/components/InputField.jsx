@@ -26,7 +26,7 @@ const InputField = () => {
 
   const handleCopy = (key) => {
     window.navigator.clipboard.writeText(availableLink[key]);
-    alert("Copied");
+    alert("Copied Successfully");
   };
 
   return (
