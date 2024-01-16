@@ -14,6 +14,7 @@ const InputField = () => {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({ userInput }),
+      cache: "no-cache",
     });
     const data = await response.json();
     if (response.status === 201) {
