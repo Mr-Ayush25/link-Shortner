@@ -1,0 +1,3 @@
+tabs : ["src/app/page.js"]
+terminals: ["npm install && npm run dev"]
+
